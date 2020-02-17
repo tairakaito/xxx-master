@@ -1,0 +1,8 @@
+<h2>Title:</h2>
+<p><%= @list.title %></p>
+<h2>Body:</h2>
+<p><%= @list.body %></p>
+
+<%= link_to "Updeta book", edit_book_path(@list.id) %>
+<%= link_to "Back", books_path %>
+<!-- show  詳細ページ -->
